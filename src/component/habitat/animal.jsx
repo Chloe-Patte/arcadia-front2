@@ -26,7 +26,7 @@ const Animal = (props) => {
     return (
         <div class="container w-full mx-auto pt-16 pb-8"> 
             <div className="w-full px-16">
-                <img alt="banniere" src={animal.src}/>
+                <img alt="banniere" src={animal.image}/>
             </div>
             <div className="">
                 <h1 className="text-2xl text-vertfonce text-center font-bold">{animal.nom}</h1>
