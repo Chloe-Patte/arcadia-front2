@@ -23,9 +23,9 @@ const Cards = (props) => {
             {animal.map(card => (
                 <div key={card.id} className="md:w-1/4 p-4">
                     <Link to={"/habitat/" + card.habitat + "/" + card.id}>
-                        <div className="h-40 w-40 rounded-xl border-2 shadow-xl">
-                            <img alt={card.nom + " image"} src={card.src} />
-                            <p>{card.nom}</p>
+                        <div className="h-40 w-40 rounded-xl border-2 border-jauneor shadow-xl">
+                            <img alt={card.nom + " image"} src={card.image} className=" rounded-xl"/>
+                            <p className="text-center text-vertfonce mt-2">{card.nom}</p>
                         </div>
                     </Link>
                 </div>
