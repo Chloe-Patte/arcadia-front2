@@ -18,6 +18,7 @@ import FormComment from './page/FormComment';
 import Dashboard from './page/Admin/Dashboard';
 import DashboardAnimaux from './page/Admin/dashboard/animaux';
 import DashboardHome from './page/Admin/dashboard/home';
+import DashboardOnClickAnimaux from './page/Admin/dashboard/onClickAnimaux';
 
 const router = createBrowserRouter([
   {
@@ -127,6 +128,14 @@ const router = createBrowserRouter([
     ),
     errorElement: <Error/>
   },
+
+{
+  path: "/dashboard/onclick",
+  element: (
+    <DashboardOnClickAnimaux/>
+  ),
+  errorElement: <Error/>
+},
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

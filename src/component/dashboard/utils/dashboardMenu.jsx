@@ -62,9 +62,9 @@ const DashboardMenu = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="index.php?controleur=gestionadmin&action=voiture" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group">
-                                    <span class="flex-1 ml-3 whitespace-nowrap">Consultation animaux</span>
-                                </a>
+                                <Link className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group" to={"/dashboard/onclick"}>
+                                    <span class="flex-1 ml-3 whitespace-nowrap">Statistiques animaux</span>
+                                </Link>
                             </li>
                             <li>
                                 <a href="index.php?controleur=gestionadmin&action=voiture" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group">

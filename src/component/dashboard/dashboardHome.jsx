@@ -4,8 +4,8 @@ const DashboardAnimaux = (props) => {
     
 
     return (
-        <div>
-            <p>Joyeux hunger games</p>
+        <div className="text-3xl text-vertfonce">
+            <p>Bienvenue sur le dashboard administrateur</p>
         </div>
     );
 };
