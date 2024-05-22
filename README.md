@@ -18,7 +18,7 @@ Commencez par cloner les deux repositories :
 
 ### Cloner le repository du back-end
 ```
-git clone https://github.com/username/backend-repo.git
+git clone https://github.com/Chloe-Patte/arcadia-back2.git
 ```
 ### Cloner le repository du front-end
 ```
