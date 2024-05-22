@@ -43,12 +43,12 @@ const Animal = (props) => {
                         <div className="inline-flex">
                             <p className="font-bold text-jauneor">Etat de santé : </p><p className="text-black font-bold pl-1">{animal.sante}</p>
                         </div><br></br>
-                        <div className="md:w-full inline-flex text-gray-300 font-light italic">
+                        <div className="w-full inline-flex text-gray-300 font-light italic">
                             <p className="mx-auto">Date de dernière visite du vétérinaire : {animal.dateVerif}</p>
                         </div>
                     </div>
                 </div>
-                <div className="w-1/2 p-4">
+                <div className="md:w-1/2 p-4">
                     <div className="border-2 rounded-xl p-12 bg-marron text-white">
                         <div className="w-full inline-flex text-white font-bold pb-4">
                             <p className="mx-auto italic">{animal.nomScientifique}</p>
