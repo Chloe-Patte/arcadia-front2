@@ -32,7 +32,7 @@ const Animal = (props) => {
                 <h1 className="text-2xl text-vertfonce text-center font-bold">{animal.nom}</h1>
             </div>
             <div className="flex flex-wrap">
-                <div className="w-1/2 p-4">
+                <div className="md:w-1/2 p-4">
                     <div className="border-2 rounded-xl p-12">
                         <div className="inline-flex">
                             <p className="font-bold text-jauneor">Age : </p><p className="text-black font-bold pl-1">{getAge(animal.naissance) + " ans"}</p>
@@ -43,7 +43,7 @@ const Animal = (props) => {
                         <div className="inline-flex">
                             <p className="font-bold text-jauneor">Etat de santé : </p><p className="text-black font-bold pl-1">{animal.sante}</p>
                         </div><br></br>
-                        <div className="w-full inline-flex text-gray-300 font-light italic">
+                        <div className="md:w-full inline-flex text-gray-300 font-light italic">
                             <p className="mx-auto">Date de dernière visite du vétérinaire : {animal.dateVerif}</p>
                         </div>
                     </div>
